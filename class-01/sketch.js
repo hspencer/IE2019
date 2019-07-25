@@ -1,12 +1,11 @@
-// Ejemplo número 1: Este es un comentario
-
 /*
-comentario
-multilínea
+
+Herramienta de Dibujo
+
 */
 
-let photo;
-let lightMode;
+let photo;   // la variable que contiene la foto
+let lightMode; // un booleano (o switch) para cambiar de claro a oscuro
 
 function setup() {
  createCanvas(500, 500);
@@ -29,12 +28,13 @@ function draw() {
   }
 }
 
-/* esta es la función que grba al presionar S */
+
 function keyTyped() {
+  /* esta es la función que graba al presionar S */
   if (key === 's' || key === 'S') {
     saveCanvas(photo, 'myCanvas', 'jpg');
   }
-
+  /* esta es la función que cambia de claro a oscuro */
   if (key === ' ') {
     lightMode = !lightMode;
     if(lightMode){
