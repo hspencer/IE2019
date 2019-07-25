@@ -7,13 +7,11 @@ En este curso aprenderás un poco de HTML, CSS y JAVASCRIPT. Ver la [página del
 
 
 ## Ejemplos vistos en clase
-1. [Herramienta de dibujo](clase-01)
-2. 
+1. [Herramienta de dibujo](class-01/)
+2.
 
 
 ## Trabajos de los Alumnos
 1. Catalina Mar
-2. 
-3.
-4.
-5.
+2. Lucas Schiesewitz
+3. Paulina Hernandez
