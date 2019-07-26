@@ -1,3 +1,3 @@
-# clase 01
+# clase 02
 
-Este sketch permite dibujar y grabar los archivos.
+Este sketch mueve la pelota con sliders
