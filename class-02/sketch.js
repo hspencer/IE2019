@@ -1,4 +1,11 @@
+/*
 
+Control Sliders
+
+*/
+
+
+let photo;   // la variable que contiene la foto
 
 let S1, S2, S3, diam, velx, vely; // Sliders & values
 let x, y; // position
@@ -7,7 +14,8 @@ let px, py;
 function setup() {
 
  createCanvas(500, 500);
-
+ photo = createCanvas(width, height);
+ 
  x = width/2;
  y = height/2;
 
@@ -22,6 +30,9 @@ function setup() {
  S1.position(10, 50);
  S2.position(10, 100);
  S3.position(10, 150);
+
+ fill(255, 70);
+ stroke(0, 90);
 }
 
 
@@ -43,4 +54,11 @@ function checkSliders(){
   diam = S1.value();
   velx = S2.value();
   vely = S3.value();
+}
+
+function keyTyped() {
+  /* esta es la función que graba al presionar S */
+  if (key === 's' || key === 'S') {
+    saveCanvas(photo, 'myCanvas', 'jpg');
+  }
 }
