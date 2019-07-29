@@ -17,8 +17,10 @@ En este curso aprenderás un poco de HTML, CSS y JAVASCRIPT. Ver la [página del
 
 ## Páginas Personales
 1. [Catalina Mar](https://catalinamar.github.io/ImagenEscrita2/)
-2. Lucas Schiesewitz
-3. Paulina Hernandez
+2. [Paulina Hernandez](https://poleniher.github.io/zero/)
+3. [Matías Cerda](https://draseart.github.io/ImagenEscrita/)
+4. Lucas Schiesewitz
+
 
 
 Todo el código de los ejemplos está disponible [acá](https://www.github.com/hspencer/IE2019).
