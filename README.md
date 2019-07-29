@@ -10,6 +10,8 @@ En este curso aprenderás un poco de HTML, CSS y JAVASCRIPT. Ver la [página del
 1. [Herramienta de dibujo](https://hspencer.github.io/IE2019/01-croquera/)
 2. [Pelota Feliz](https://hspencer.github.io/IE2019/02-pelota-feliz/)
 3. [Movimiento y Control](https://hspencer.github.io/IE2019/03-dom-control/) (biblioteca DOM)
+4. [Trama 2D ajustable](https://hspencer.github.io/IE2019/04-trama-2D)
+5. [Línea azarosa a partir de un "elemento merodeador"](https://hspencer.github.io/IE2019/05-linea-azarosa)
 
 ## Páginas Personales
 1. Catalina Mar
