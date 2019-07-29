@@ -34,11 +34,11 @@ function moveElement(){
   var n = noise(millis()/30) - .5;
   t += n;
 
-  // identidad circular
-  nx = x + cos(t) * 2;
-  ny = y + sin(t) * 2;
-
   if(x > width || x < 0 || y < 0 || y > height){
    t += PI;
   }
+
+  // identidad circular
+  nx = x + cos(t) * 2;
+  ny = y + sin(t) * 2;
 }
