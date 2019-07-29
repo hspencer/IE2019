@@ -15,3 +15,6 @@ En este curso aprenderás un poco de HTML, CSS y JAVASCRIPT. Ver la [página del
 1. Catalina Mar
 2. Lucas Schiesewitz
 3. Paulina Hernandez
+
+
+Todo el código de los ejemplos está disponible [acá](https://www.github.com/hspencer/IE2019).
