@@ -7,8 +7,9 @@ En este curso aprenderás un poco de HTML, CSS y JAVASCRIPT. Ver la [página del
 
 
 ## Ejemplos vistos en clase
-1. [Herramienta de dibujo](https://hspencer.github.io/IE2019/class-01/)
-2. [Movimiento y Control](https://hspencer.github.io/IE2019/class-02/)
+1. [Herramienta de dibujo](https://hspencer.github.io/IE2019/01-croquera/)
+2. [Pelota Feliz](https://hspencer.github.io/IE2019/02-pelota-feliz/)
+3. [Movimiento y Control](https://hspencer.github.io/IE2019/03-dom-control/) (biblioteca DOM)
 
 ## Páginas Personales
 1. Catalina Mar
