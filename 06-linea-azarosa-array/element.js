@@ -13,8 +13,8 @@ class Element{
     this.nx = this.x;
     this.ny = this.y;
     this.t = random(TWO_PI);
-    this.sw = 3;
-    this.ns = round(random(99999));
+    this.sw = 3; // strokeWeight
+    this.ns = round(random(999999)); // noiseSeed
     this.c = color(random(100, 255), random(50, 100), random(0, 100), 100);
   }
 
@@ -29,8 +29,8 @@ class Element{
       this.t += PI;
     }
     // identidad circular
-    this.nx = this.x + cos(this.t) * 2;
-    this.ny = this.y + sin(this.t) * 2;
+    this.nx = this.x + cos(this.t) * 15;
+    this.ny = this.y + sin(this.t) * 15;
   }
 
   paint(){

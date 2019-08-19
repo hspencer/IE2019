@@ -8,7 +8,7 @@
 let x,y;   // la posición del elemento
 let nx,ny; // la siguiente posición del elemento
 let t;     // el ángulo de avance del elemento
-
+let n = 0;     // noise
 
 function setup() {
   // sketch a pantalla completa
@@ -18,20 +18,20 @@ function setup() {
   x = width/2;
   y = height/2;
   t = -HALF_PI;
-
-  strokeWeight(3);
+  noStroke();
+  fill(0);
 }
 
 function draw() {
   moveElement(); // función personalizada
-  line(x, y, nx, ny); // línea desde la ubicación actual hasta la próxima
+  achure(x, y, nx, ny, n); // línea desde la ubicación actual hasta la próxima
   x = nx;
   y = ny;
 }
 
 
 function moveElement(){
-  let n = noise(millis()/30) - .5;
+  n = noise(millis()/300) - .5;
   t += n;
 
   /* si se sale de los márgenes, rebota */
@@ -39,9 +39,13 @@ function moveElement(){
    t += PI; // rotar en 180º
   }
 
-  let avance = 20;
+  let avance = 10;
 
   // identidad circular
   nx = x + cos(t) * avance;
   ny = y + sin(t) * avance;
+}
+
+function achure(x, y, nx, ny, n){
+  quad(x - n*40, y + n*40, nx - n*40, ny + n*40, nx + n*40, ny - n*40, x + n*40, y - n*40);
 }
