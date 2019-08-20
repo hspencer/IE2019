@@ -16,6 +16,7 @@ class Element{
     this.sw = 3; // strokeWeight
     this.ns = round(random(999999)); // noiseSeed
     this.c = color(random(100, 255), random(50, 100), random(0, 100), 100);
+    this.step = random(2, 20);
   }
 
   move(){
@@ -29,8 +30,8 @@ class Element{
       this.t += PI;
     }
     // identidad circular
-    this.nx = this.x + cos(this.t) * 15;
-    this.ny = this.y + sin(this.t) * 15;
+    this.nx = this.x + cos(this.t) * this.step;
+    this.ny = this.y + sin(this.t) * this.step;
   }
 
   paint(){
