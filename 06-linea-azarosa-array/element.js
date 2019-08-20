@@ -15,8 +15,8 @@ class Element{
     this.t = random(TWO_PI);
     this.sw = 3; // strokeWeight
     this.ns = round(random(999999)); // noiseSeed
-    this.c = color(random(100, 255), random(50, 100), random(0, 100), 100);
-    this.step = random(2, 20);
+    this.c = color(random(0, 10), random(200, 255), random(240, 255));
+    this.step = random(2, 10);
   }
 
   move(){

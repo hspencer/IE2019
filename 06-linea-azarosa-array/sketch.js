@@ -8,7 +8,7 @@ const trazos = [];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  for(let i = 0; i < 50; i++){
+  for(let i = 0; i < 90; i++){
     trazos.push(new Element());
   }
 }
