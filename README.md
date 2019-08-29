@@ -19,7 +19,7 @@ En este curso aprenderás un poco de HTML, CSS y JAVASCRIPT. Ver la [página del
 1. [Colección de líneas azarosas a partir de la definición del "elemento merodeador" como una clase que se puede replicar](/IE2019-T2/06-linea-azarosa-array)
 
 ## Páginas Personales
-1. [Catalina Mar](https://catalinamar.github.io/ImagenEscrita2/)
+1. [Catalina Mar](https://catalinamar.github.io/Imagen-Escrita/)
 2. [Paulina Hernandez](https://Poleniher.github.io/zero/)
 3. [Matías Cerda](https://draseart.github.io/ImagenEscrita/)
 4. [Lucas Schiesewitz](https://lschiesewitz.github.io/ImagenEscrita/)
